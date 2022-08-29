@@ -1,0 +1,14 @@
+.project{
+    text-align: center;
+    height: 20em;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(0,212,255,1) 100%);
+}
+
+.project > h1{
+    color: #d1caca;
+    display: inline-block;
+    margin-top: 4em;
+    border-top-style: inset;
+    border-bottom-style: outset;
+}

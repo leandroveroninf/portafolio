@@ -1,0 +1,9 @@
+.proyect{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262626;
+    color: #ffffff;
+    font-weight: 500; 
+}

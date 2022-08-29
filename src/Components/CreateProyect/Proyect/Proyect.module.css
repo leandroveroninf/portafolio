@@ -1,0 +1,53 @@
+.cont {
+    text-align: center;
+    background-color: #efefef;
+    padding: 1em;
+    margin: 4em 2em;
+}
+
+.proyect {
+
+}
+
+
+.contForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3em;
+    gap: 1em;
+}
+
+.contForm > button {
+    background-color: #4e4e4e;
+    padding: 7px;
+    border-radius: 1em;
+    border-style: hidden;
+    color: #ffffff;
+}
+
+.FromName, .FromDesc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.FromName > label, .FromDesc > label {
+    text-align: initial;
+}
+
+.FromName > input, .FromDesc > textarea {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 3px;
+    border-style: double;
+    border-color: #efefef;
+    color: #5c5c5c;
+}
+
+.FromDesc > textarea {
+    height: 10em;
+    padding: 2em;
+}
+

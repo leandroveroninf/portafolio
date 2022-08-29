@@ -1,0 +1,100 @@
+.contNewTech {
+  text-align: center;
+  background-color: #efefef;
+  padding: 1em;
+  margin: 4em 2em;
+  }
+
+  .contFormTech {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .contFormTech > input {
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 3px;
+    border-style: double;
+    border-color: #efefef;
+    color: #5c5c5c;
+}
+
+
+.contFormTech > button {
+    background-color: #4e4e4e;
+    padding: 7px;
+    border-radius: 1em;
+    border-style: hidden;
+    color: #ffffff;
+}
+
+.contMains {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.contImgs{
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  margin: 1em;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  background-color: #000000;
+  border-radius: 0.5em;
+}
+
+.btnAnt{
+  background-color: #1c1c1c3d;
+  width: 7em;
+  text-align: center;
+}
+
+.btnAnt > span{
+  font-size: xxx-large;
+  display: block;
+  background-color: #1c1c1c00;
+  color: #ffffff;
+  margin-top: 0.4em;
+}
+
+.btnSig{
+  background-color: #1c1c1c3d;
+  width: 7em;
+  text-align: center;
+}
+
+.btnSig > span{
+  font-size: xxx-large;
+  display: block;
+  background-color: #1c1c1c00;
+  color: #ffffff;
+  margin-top: 0.4em;
+}
+
+.imgMain{
+  width: 50em;
+  height: 25em;
+  padding: 1em;
+}
+
+.imgMain > img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgs{
+  width: 10em;
+  padding: 0.3em;
+}
+
+.imgs > img {
+  width: 100%;
+}

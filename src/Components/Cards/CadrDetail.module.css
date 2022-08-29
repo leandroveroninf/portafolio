@@ -1,0 +1,71 @@
+.contImgs{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    background-color: #000000;
+    border-radius: 0.5em;
+}
+
+.btnAnt{
+    background-color: #1c1c1c3d;
+    width: 7em;
+    text-align: center;
+}
+
+.btnAnt > span{
+    font-size: xxx-large;
+    display: block;
+    background-color: #1c1c1c00;
+    color: #ffffff;
+    margin-top: 0.4em;
+}
+
+.btnSig{
+    background-color: #1c1c1c3d;
+    width: 7em;
+    text-align: center;
+}
+
+.btnSig > span{
+    font-size: xxx-large;
+    display: block;
+    background-color: #1c1c1c00;
+    color: #ffffff;
+    margin-top: 0.4em;
+}
+
+.imgMain{
+    width: 50em;
+    height: 25em;
+    padding: 1em;
+}
+
+.imgMain > img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgs{
+    width: 10em;
+    padding: 0.3em;
+}
+
+.imgs > img {
+    width: 100%;
+}
+
+.container{
+    padding: 1em;
+    margin: 1em;
+    width: 52em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #323232;
+    border-radius: 1em;
+}
